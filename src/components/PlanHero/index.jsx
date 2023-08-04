@@ -29,6 +29,54 @@ const PlanHero = () => {
             </div>
         </div>
     </div>
+    <div className={classes['category']}>
+        <h3>How do you drink your coffee?</h3>
+        <div className={classes['category__cards']}>
+            <div className={classes['category__cards__card']}>
+                <h4>Capsule</h4>
+                <p>Compatible with Nespresso systems and similar brewers</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>Filter</h4>
+                <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>Espresso</h4>
+                <p>Dense and finely ground beans for an intense, flavorful experience</p>
+            </div>
+        </div>
+        <h3>What type of coffee?</h3>
+        <div className={classes['category__cards']}>
+            <div className={classes['category__cards__card']}>
+                <h4>Single Origin</h4>
+                <p>Distinct, high quality coffee from a specific family-owned farm</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>Decaf</h4>
+                <p>Just like regular coffee, except the caffeine has been removed</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>Blended</h4>
+                <p>Combination of two or three dark roasted beans of organic coffees</p>
+            </div>
+        </div>
+        <h3>How much would you like?</h3>
+        <div className={classes['category__cards']}>
+            <div className={classes['category__cards__card']}>
+                <h4>250g</h4>
+                <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>500g</h4>
+                <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+            </div>
+            <div className={classes['category__cards__card']}>
+                <h4>1000g</h4>
+                <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+            </div>
+        </div>
+        <button className={classes['works__btn']}>Create your plan</button>
+    </div>
     </>
   )
 }
